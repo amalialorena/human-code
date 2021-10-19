@@ -1,0 +1,43 @@
+implementare un layout
+
+Leggo le istruzioni di Simone su slack
+
+Creo la repo su github
+
+clono la repo in vs code
+    - colloco la cartella dell'esercizio all'interno della cartella esercizi boolean
+    
+Creo un file index.html
+Creo una cartella css, all'interno ci metto un file style.css     
+Se c'è una cartella img, la importo nella cartella dell'esercizio
+
+All'interno del file index.html creo il boilerplate con le sezioni head e body, facendomi aiutare dal autocomplete di vs code
+    - nella sezione head aggiungo il link al mio file style.css ed il titolo della mia pagina
+
+Esamino lo screen con il layout da replicare se c'è
+    - altrimenti rileggo con attenzione le istruzioni di Simone
+
+Inizio a scomporre in macro - sezioni la mia pagina
+
+Se si tratta di una pagina web tradizionale, uso i tag semantici (header, nav, main, footer ecc)    
+    altrimenti uso i tag section per dividere la mia pagina in sezioni
+
+Faccio commit e push, 
+poi inizio a dividere ancora la mia paggina
+
+se la mia pagina è responsive deciderò di usare bootstrap per fare le griglie del mio layout
+    - inizio creando dei div con la classe container per ogni sezione
+    - all'interno dei container ci metto dei div con la classe row 
+        - se ci sono più contenuti uno sotto l'altro creo un row per ogni contenuto o gruppo di colonne
+        - all'interno dei row ci metto dei div classe col-... per contenere i miei elementi. 
+            - se ho delle colonne una di fianco ad altra userò un div col- per ogni colonna all'interno dello stesso row
+            - per cambiare l'ingombro delle colonne in base al dispositivo che si sta usando per visualizzare la pagina, uso le apposite classi di bootstrap per le colonne o per le righe
+
+altrimenti (se non uso bootstrap) creo dei div con delle classi per creare i miei contenitori.
+
+
+Nel file css do dei valori di debug ai contenitori (colore di sfondo e dimensioni in altezza) per vedere se tutto funziona correttamente.
+Se non ho usato bootstrap, userò float oppure flexbox per creare il mio layout.
+Faccio commit e push
+
+The end     
